@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Working on React Storybook
+
+## What it is?
+
+#### >>> Storybook is a tool for UI development. It makes development faster and easier by isolating components. This allows you to work on one component at a time. You can develop entire UIs without needing to start up a complex dev stack, force certain data into your database, or navigate around your application.
+
+### To get started just install Storybook using:
+
+### npx sb init
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
