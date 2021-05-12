@@ -1,7 +1,7 @@
 import React from "react";
 import "./Profile.css";
 
-function Profile() {
+function Profile({ user: { name, title } }) {
   return (
     <div className="profile">
       <img
@@ -12,8 +12,8 @@ function Profile() {
         className="profile__img"
       />
       <div className="profile__info">
-        <h2>Siddhesh</h2>
-        <h3>Masters in Computer Science: Intelligent Systems</h3>
+        <h2>{name}</h2>
+        <h3>{title}</h3>
       </div>
     </div>
   );
